@@ -1,0 +1,28 @@
+{
+  "name": "hieu-nv.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hieunv/react-scripts": "2.0.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "@reach/router": "1.2.1"
+  },
+  "devDependencies": {
+    "@types/reach__router": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not op_mini all",
+    "ie 11"
+  ]
+}

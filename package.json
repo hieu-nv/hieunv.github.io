@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "cd packages/hieu-nv.github.io && yarn start"
+  },
+  "devDependencies": {
+    "lerna": "^3.3.2"
+  }
+}
