@@ -797,10 +797,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@hieunv/react-scripts@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@hieunv/react-scripts/-/react-scripts-2.0.3.tgz#013f30edd528eed01ef4bd07ec0177f5efb7d4f6"
-  integrity sha512-ezkp5kLrEAGmt2S0Wl0+04GjbThvnWn6BBaxoDAJI338zZDuzdw4w+XCvios/8tAdCBepOQHj4PvkwPweCz4ZA==
+"@hieunv/react-scripts@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@hieunv/react-scripts/-/react-scripts-2.0.4.tgz#d8518b99282a8921d578098de4a4c9dbb02be5b6"
+  integrity sha512-qkhwjp8lQPd/fwdUtEjrRVTqWPwVcLGi8vGZ6Iwob8i/s62iLrzatEBxlZQfEM5tGp6z1elR+Mh6GCxhw+07lg==
   dependencies:
     "@babel/core" "7.1.0"
     "@svgr/webpack" "2.4.1"
@@ -811,7 +811,7 @@
     babel-jest "23.6.0"
     babel-loader "8.0.4"
     babel-plugin-named-asset-import "^0.2.2"
-    babel-preset-react-app "^5.0.2"
+    babel-preset-react-app "^5.0.3"
     bfj "6.1.1"
     case-sensitive-paths-webpack-plugin "2.1.2"
     chalk "2.4.1"
@@ -843,7 +843,7 @@
     postcss-preset-env "6.0.6"
     postcss-safe-parser "4.0.1"
     react-app-polyfill "^0.1.3"
-    react-dev-utils "^6.0.3"
+    react-dev-utils "^6.0.4"
     reset.css "2.0.2"
     resolve "1.8.1"
     sass-loader "7.1.0"
@@ -2283,10 +2283,10 @@ babel-preset-jest@^23.2.0:
     babel-plugin-jest-hoist "^23.2.0"
     babel-plugin-syntax-object-rest-spread "^6.13.0"
 
-babel-preset-react-app@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-5.0.2.tgz#b00605ec1ae4f0dee0bde33f5b6896de6f720a15"
-  integrity sha512-ogV5J3o5lxdUwNGNGbVTHhAnWMLhnSv9QR/Kyb0aeeJ4IURdky3Uj8gTb258hyE4jRUMohU9CUUwzHfeuj3qPw==
+babel-preset-react-app@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-5.0.3.tgz#ab750bc368e5bbabb45a3dade946660d29dac6bd"
+  integrity sha512-nLeuYPjhOUGKgYCZrGW57glKCwr5ahMsX5gv025bugevHfK2H+wTw8zOIkG/mpiC/vkhFBp8GamOhnpHNFIwmA==
   dependencies:
     "@babel/core" "7.1.0"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -9409,10 +9409,10 @@ react-app-polyfill@^0.1.3:
     raf "3.4.0"
     whatwg-fetch "3.0.0"
 
-react-dev-utils@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-6.0.3.tgz#78662b5fd7b4441140485e80d04d594116c5b1e3"
-  integrity sha512-3fI6rknX4td1/iFM+RtQh56TgSKUn6lvAmzqtYepk6OrTGwG1bEXv0x0NvaUdTwZHwdcdkuaeOeTzZHSbHk4Ug==
+react-dev-utils@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-6.0.4.tgz#cd6d2712aa22d67751ef6757dc82787351da8826"
+  integrity sha512-0I+eRcb4RrmlWCKRJhDLi29oTEqpDEbbVGI1DrN/ZTJbvhzycsg03Edi67YQVUjYl690URufowi54+u0TUnQMw==
   dependencies:
     "@babel/code-frame" "7.0.0"
     address "1.0.3"
@@ -9430,7 +9430,7 @@ react-dev-utils@^6.0.3:
     loader-utils "1.1.0"
     opn "5.4.0"
     pkg-up "2.0.0"
-    react-error-overlay "^5.0.3"
+    react-error-overlay "^5.0.4"
     recursive-readdir "2.2.2"
     shell-quote "1.6.1"
     sockjs-client "1.1.5"
@@ -9447,10 +9447,10 @@ react-dom@^16.5.2:
     prop-types "^15.6.2"
     schedule "^0.5.0"
 
-react-error-overlay@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.0.3.tgz#6eae9350144f3cd036e4f968c5a8bfae542af562"
-  integrity sha512-TLMcjJcNy7BalEHN1iNuIK0E6ODYgExcrdaKraT4kzKVztkrBHI1THTAn3qx7GVvtP4TbCqi+mBjsZqoWtuiEQ==
+react-error-overlay@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.0.4.tgz#39cf184d770f98b65a2ee59a779d03b8d092b69e"
+  integrity sha512-grVJtoDzIbSMYgy5rKbSOmt2FvzR4iJnpMBjXmZolSYJM5acQvBHoEbBBNW0FzTE/TLZMZ+gSy0bAHydc1hFEw==
 
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
