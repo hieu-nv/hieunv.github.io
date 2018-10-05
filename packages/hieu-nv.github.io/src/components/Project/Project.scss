@@ -1,0 +1,13 @@
+.project {
+  > h2 {
+    font-weight: bold;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0;
+    .avatar {
+      width: 128px;
+    }
+  }
+}
