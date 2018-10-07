@@ -1,5 +1,8 @@
 @import '~reset.css/reset.css';
-@import "~normalize.css/normalize.css";
+@import '~normalize.css/normalize.css';
+@import '~@material/top-app-bar/mdc-top-app-bar';
+@import '~@material/drawer/mdc-drawer';
+@import '~@material/list/mdc-list';
 
 html, body {
   height: 100%;

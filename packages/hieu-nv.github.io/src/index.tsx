@@ -4,10 +4,11 @@ import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { Router } from '@reach/router';
 import { Home } from './components/Home';
-
+import { Home as ReactMdcHome } from './react-mdc/components';
 
 
 ReactDOM.render(<Router>
+  <ReactMdcHome path="/react-mdc/*"/>
   <Home path="/*"/>
 </Router>, document.getElementById('root'));
 

@@ -4,12 +4,15 @@
   "private": true,
   "dependencies": {
     "@hieunv/react-scripts": "2.0.4",
+    "@hieunv/react-mdc": "^0.2.0",
+    "@reach/router": "1.2.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "@reach/router": "1.2.1"
+    "classnames": "^2.2.6"
   },
   "devDependencies": {
-    "@types/reach__router": "^1.0.1"
+    "@types/reach__router": "^1.0.1",
+    "@types/classnames": "^2.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
