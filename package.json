@@ -9,6 +9,23 @@
     "build": "cd packages/hieu-nv.github.io && yarn build"
   },
   "devDependencies": {
-    "lerna": "^3.3.2"
+    "lerna": "^3.3.2",
+    "husky": "^1.1.1",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css}": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
+    ]
   }
 }
