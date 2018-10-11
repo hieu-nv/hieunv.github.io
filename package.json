@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "cd packages/hieu-nv.github.io && yarn start",
-    "build": "cd packages/hieu-nv.github.io && yarn build"
+    "start": "cd packages/hieu-nv.github.io && react-scripts start",
+    "build": "cd packages/hieu-nv.github.io && react-scripts build"
   },
   "devDependencies": {
     "lerna": "^3.3.2",
