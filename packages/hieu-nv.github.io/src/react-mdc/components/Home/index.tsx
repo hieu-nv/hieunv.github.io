@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AppContent, Drawer, Header, List, MainContent } from '@hieunv/react-mdc';
+import { AppContent, Drawer, Header, List, MainContent } from '@hieunv/react-mdc/components';
 import { Link, RouteComponentProps } from '@reach/router';
 import classNames from 'classnames';
 import { NavConnector } from '@hieunv/react-mdc/connectors';

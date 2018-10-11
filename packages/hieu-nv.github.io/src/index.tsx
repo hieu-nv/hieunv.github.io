@@ -5,9 +5,10 @@ import * as serviceWorker from './serviceWorker';
 import { Router } from '@reach/router';
 import { Home } from './components/Home';
 import { Home as ReactMdcHome } from './react-mdc/components';
-
+import { Home as DashHome } from './dash/components';
 
 ReactDOM.render(<Router>
+  <DashHome path="/dash"/>
   <ReactMdcHome path="/react-mdc/*"/>
   <Home path="/*"/>
 </Router>, document.getElementById('root'));

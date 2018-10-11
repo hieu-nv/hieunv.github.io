@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@hieunv/react-scripts": "2.0.4",
-    "@hieunv/react-mdc": "^0.2.0",
+    "@hieunv/react-scripts": "2.0.4-2",
+    "@hieunv/react-mdc": "^0.3.1",
     "@reach/router": "1.2.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "classnames": "^2.2.6"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.6",
     "@types/reach__router": "^1.0.1",
     "@types/react": "^16.4.16",
-    "@types/react-dom": "^16.0.8",
-    "@types/classnames": "^2.2.6"
+    "@types/react-dom": "^16.0.8"
   },
   "scripts": {
     "start": "react-scripts start",
