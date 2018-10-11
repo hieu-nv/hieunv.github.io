@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "start": "cd packages/hieu-nv.github.io && react-scripts start",
+    "test": "cd packages/hieu-nv.github.io && react-scripts test",
     "build": "cd packages/hieu-nv.github.io && react-scripts build"
   },
   "devDependencies": {
