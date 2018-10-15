@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@hieunv/react-scripts": "2.0.4-8",
+    "@hieunv/react-scripts": "2.0.5",
     "@hieunv/react-mdc": "^0.3.1",
     "classnames": "^2.2.6",
     "@reach/router": "1.2.1",
